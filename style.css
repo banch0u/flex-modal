@@ -39,7 +39,7 @@ body{
     margin-bottom: 15px;
 }
 .x{
-    background-color: gray;
+    background-color: lightgray;
     width: 25px;
     height: 25px;
     border-radius: 25px;
@@ -49,8 +49,24 @@ body{
 }
 .x a{
     text-decoration:none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .buttons{
     margin-top: 15px;
+}
+.blueButton{
+    color: white;
+    padding: 7px 11px;
+    background-color: purple;
+    border-radius: 8px;
+    border: none;  
+}
+.whiteButton{
+    color: purple;
+    padding: 7px 11px;
+    border-radius: 8px;
+    border: solid 1px;
+    border-color: lightgray;
+    background-color: white;
+
 }
